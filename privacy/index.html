@@ -38,7 +38,7 @@
         <li>Google Drive files and file metadata.</li>
         <li>Google Sheets spreadsheets and their data.</li>
       </ul>
-      <p>The currently configured Google OAuth permissions are: <code>gmail.modify</code>, <code>gmail.readonly</code>, <code>gmail.send</code>, <code>calendar</code>, <code>contacts.readonly</code>, <code>documents.readonly</code>, <code>drive.file</code>, <code>drive.readonly</code>, and <code>spreadsheets</code>.</p>
+      <p>The standard Google OAuth permissions are: <code>gmail.modify</code>, <code>calendar.events</code>, <code>drive.readonly</code>, <code>contacts.readonly</code>, <code>spreadsheets</code>, and <code>documents.readonly</code>. When Robert explicitly chooses the Drive-upload feature, Hermes requests the separate <code>drive.file</code> permission; it is not requested during normal authorization.</p>
     </section>
 
     <section>
